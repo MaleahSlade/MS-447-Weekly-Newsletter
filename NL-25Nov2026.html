@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
   <meta charset="UTF-8">
@@ -26,26 +27,93 @@
   <style>
     /* Unit convention: 1rem = 16px. Each inline rem value is preceded by a px fallback
        for clients that don't support rem (e.g. desktop Outlook). */
-    html, body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
-    * { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse; }
-    table.card { border-collapse: separate !important; }
-    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; max-width: 100% !important; height: auto !important; }
-    a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; }
+    html,
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+    }
+
+    * {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+      border-collapse: collapse;
+    }
+
+    table.card {
+      border-collapse: separate !important;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+      border: 0;
+      outline: none;
+      text-decoration: none;
+      max-width: 100% !important;
+      height: auto !important;
+    }
+
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+    }
 
     /* Breakpoint stays in px: media queries are the one place rem is unreliable in email. */
     @media screen and (max-width: 600px) {
-      .container { width: 100% !important; max-width: 100% !important; }
-      .outer-pad { padding: 0 !important; }
-      .px { padding-left: 1rem !important; padding-right: 1rem !important; }
-      .gutter { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
-      .card-pad { padding: 1rem !important; }
-      .h1 { font-size: 1.375rem !important; line-height: 1.27 !important; }
-      .h2 { font-size: 1.1875rem !important; line-height: 1.3 !important; }
-      .fluid { width: 100% !important; max-width: 100% !important; height: auto !important; }
+      .container {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .outer-pad {
+        padding: 0 !important;
+      }
+
+      .px {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+      }
+
+      .gutter {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+      }
+
+      .card-pad {
+        padding: 1rem !important;
+      }
+
+      .h1 {
+        font-size: 1.375rem !important;
+        line-height: 1.27 !important;
+      }
+
+      .h2 {
+        font-size: 1.1875rem !important;
+        line-height: 1.3 !important;
+      }
+
+      .fluid {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+      }
+
       /* Two-column cards stack into one column on phones */
-      .col { display: block !important; width: 100% !important; }
-      .col-gap { padding: 1rem 0 0 0 !important; }
+      .col {
+        display: block !important;
+        width: 100% !important;
+      }
+
+      .col-gap {
+        padding: 1rem 0 0 0 !important;
+      }
     }
   </style>
 </head>
@@ -53,18 +121,20 @@
 <body style="margin:0; padding:0; width:100%; background-color:#f4f4f4;">
 
   <!-- Preview text (shown in inbox, hidden in the email) -->
-  <div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all;">
-    
+  <div
+    style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all;">
+
     &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
   </div>
 
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; background-color:#f4f4f4;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+    style="width:100%; background-color:#f4f4f4;">
     <tr>
       <td align="center" class="outer-pad" style="padding:20px 0; padding:1.25rem 0;">
 
         <!--[if mso]><table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
-        <table role="presentation" class="container" width="600" align="center" cellpadding="0" cellspacing="0" border="0"
-          style="width:100%; max-width:600px; max-width:37.5rem; margin:0 auto; background-color:#f4f4f4;">
+        <table role="presentation" class="container" width="600" align="center" cellpadding="0" cellspacing="0"
+          border="0" style="width:100%; max-width:600px; max-width:37.5rem; margin:0 auto; background-color:#f4f4f4;">
 
           <!-- Banner -->
           <tr>
@@ -77,243 +147,365 @@
 
           <!-- Heading (on gray backdrop) -->
           <tr>
-            <td align="center" class="px" style="padding:24px 24px 12px; padding:1.5rem 1.5rem 0.75rem; background-color:#f4f4f4;">
-              <h1 class="h1" style="margin:0; font-family:'Fira Sans', Arial, sans-serif; font-size:26px; font-size:1.625rem; line-height:1.25; font-weight:700; color:#0c0c0c;">WHAT'S HAPPENING AT MS 447:</h1>
+            <td align="center" class="px"
+              style="padding:24px 24px 12px; padding:1.5rem 1.5rem 0.75rem; background-color:#f4f4f4;">
+              <h1 class="h1"
+                style="margin:0; font-family:'Fira Sans', Arial, sans-serif; font-size:26px; font-size:1.625rem; line-height:1.25; font-weight:700; color:#0c0c0c;">
+                WHAT'S HAPPENING AT MS 447:</h1>
             </td>
           </tr>
 
-           <!-- CARD 1: MESSAGE OF APPRECIATION-->
-           <tr>
-            <tr>
+          <!-- CARD 1: MESSAGE OF APPRECIATION-->
+          <tr>
+          <tr>
             <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
-              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
+              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+                bgcolor="#ffffff"
                 style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
                 <tr>
-                  <td class="card-pad" style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
-                    <h2 class="h2" style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">A MESSAGE OF APPRECIATION FOR THE MS 447 COMMUNITY 💛🧡</h2>
+                  <td class="card-pad"
+                    style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
+                    <h2 class="h2"
+                      style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">
+                      A MESSAGE OF APPRECIATION FOR THE MS 447 COMMUNITY 💛🧡</h2>
                     <p style="margin:0 0 12px; margin:0 0 0.75rem;">Dear MS 447 Famillies,</p>
-                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">Our Fall Staff Appreciation Breakfast was a wonderful success, and we couldn’t have done it without the generosity and support of our MS 447 community!</p>
-                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">Thank you to everyone who contributed funds, donated delicious treats, and volunteered their time to help make the morning special. Whether you made a donation, brought something to share, or lent a helping hand with setup, serving, or cleanup, your efforts helped create a meaningful opportunity for our staff to feel recognized and appreciated.</p>
-                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">Most importantly, we want to extend our heartfelt gratitude to the incredible MS 447 staff. Day in and day out, our teachers, administrators, and school staff work tirelessly to provide our students with a high-quality education, challenge them to reach their potential, and create an environment where they can learn, grow, and thrive. Their commitment extends far beyond the classroom, and we are grateful for the time, care, and dedication they bring to our school community.</p>
-                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">It takes a village to support a school, and this breakfast was a beautiful reminder of what we can accomplish when families come together. Thank you for helping us show our staff just how much they mean to our MS 447 community.</p>
+                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">Our Fall Staff Appreciation Breakfast was a
+                      wonderful success, and we couldn’t have done it without the generosity and support of our MS 447
+                      community!</p>
+                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">Thank you to everyone who contributed funds, donated
+                      delicious treats, and volunteered their time to help make the morning special. Whether you made a
+                      donation, brought something to share, or lent a helping hand with setup, serving, or cleanup, your
+                      efforts helped create a meaningful opportunity for our staff to feel recognized and appreciated.
+                    </p>
+                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">Most importantly, we want to extend our heartfelt
+                      gratitude to the incredible MS 447 staff. Day in and day out, our teachers, administrators, and
+                      school staff work tirelessly to provide our students with a high-quality education, challenge them
+                      to reach their potential, and create an environment where they can learn, grow, and thrive. Their
+                      commitment extends far beyond the classroom, and we are grateful for the time, care, and
+                      dedication they bring to our school community.</p>
+                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">It takes a village to support a school, and this
+                      breakfast was a beautiful reminder of what we can accomplish when families come together. Thank
+                      you for helping us show our staff just how much they mean to our MS 447 community.</p>
                     <p style="margin:0 0 12px; margin:0 0 0.75rem;">We wish you a wonderful Thanksgiving break.</p>
                     <p style="margin: 0 0 12 px; margin 0 0 0.75rem;">Warmly,</p>
                     <p style="margin: 0 0 12 px; margin 0 0 0.75rem;">The MS 447 PTA</p>
-                </td>
+                  </td>
                 </tr>
                 <td style="padding:0; font-size:0; line-height:0;">
-              <img src="https://res.cloudinary.com/l5rpfuut/image/upload/v1795534942/IMG_3238.jpg"
-                alt="MS 447 2026 Fall Staff Appreciation Collage" width="600" class="fluid"
-                style="display:block; width:100%; max-width:600px; max-width:37.5rem; height:auto; border:0;">
+                  <img src="https://res.cloudinary.com/l5rpfuut/image/upload/v1795534942/IMG_3238.jpg"
+                    alt="MS 447 2026 Fall Staff Appreciation Collage" width="600" class="fluid"
+                    style="display:block; width:100%; max-width:600px; max-width:37.5rem; height:auto; border:0;">
                 </td>
               </table>
             </td>
           </tr>
-          <tr><td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td></tr>
+          <tr>
+            <td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td>
+          </tr>
 
           <!-- CARD 2: OFFICE HOURS SCHEDULE -->
           <tr>
-            <tr>
-            <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
-              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
-                style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
-                </tr>
-
-                <tr>
-                  <td class="card-pad" style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
-                    <h2 class="h2" style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">OFFICE HOURS SCHEDULE 🗓️</h2>
-                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">Is your student taking advantage of office hours? Stay up to date with the current <a href="https://docs.google.com/document/d/1I89B4v-zc1aJGF0igHs1blJfpS2k5z8QYtFI1RrzR5M/edit?usp=sharing" target="_blank">schedule</a>, which can get adjusted from time to time. This is a great time for them to get extra help, have time to catch up if they are absent, or complete homework in a quiet place.</p>
-              </table>
-            </td>
-          </tr>
-          <tr><td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td></tr>
-         
-          <!-- CARD 3: REMINDER, MATCHING FUNDS WILL DOUBLE IMPACT-->
-           <tr>
-            <tr>
-            <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
-              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
-                style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
-                
-                <!--REMINDER BANNER-->
-                <tr>
-                <td bgcolor="#fff4d6"
-                style="background-color:#ffe26d; border-top:4px solid #242659; border-bottom:1px solid #000000; border-radius:8px 8px 0 0; padding:8px 20px; padding:0.5rem 1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#000000;">
-                &#9200;&nbsp; Reminder
-                </td>
-                </tr>
-                
-                <tr>
-                  <td class="card-pad" style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
-                    <h2 class="h2" style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">MATCHING FUNDS WILL DOUBLE YOUR IMPACT ON GIVING TUESDAY 🎁</h2>
-                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">As the holiday season approaches and you begin thinking about your end-of-year giving, we hope you’ll consider supporting MS 447. With Giving Tuesday just two weeks away on December 1, there’s an exciting opportunity to make your contribution go even further!</p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem; color:#ff0000;">Take advantage of our <b>$5,000 match!</b></p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem;"><b>An anonymous donor has generously pledged to match the first $5,000 raised between now and Giving Tuesday (December 1), </b>doubling the impact of every donation! That means a $50 gift becomes $100, and a $100 gift becomes $200. Reaching the full $5,000 match would bring our fundraising total to $16,000 since the start of the school year!</p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem;">🚨🚨<a href="https://www.zeffy.com/en-US/donation-form/375c6116-b8ce-4b7d-9160-e0049235ac9c" target="_blank"><b>DONATE HERE TO DOUBLE YOUR IMPACT</b></a>🚨🚨</p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem;"><u>Why Your Support Matters:</u></p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem;">Your contributions help sustain the programs and experiences that make MS 447 special and are a big part of why so many families choose our school. These include our Signature Expo Trips, which take classroom learning beyond school walls and bring it to life through hands-on experiences throughout NYC and beyond.</p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem;">Every contribution makes a difference, and this matching challenge is a wonderful opportunity to make your gift go twice as far. All donations are 100% tax-deductible with one-time and recurring monthly options available. </p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem;">Thank you for your continued generosity and for supporting the MS 447 community!</p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem;">With gratitude,</p>
-                    <p style="margin: 0 0 12 px; margin 0 0 0.75rem;">The MS 447 PTA</p>
-                </td>
-                </tr>
-                <td style="padding:0; font-size:0; line-height:0;">
-              <img src="https://res.cloudinary.com/l5rpfuut/image/upload/v1795537081/unnamed_4.png"
-                alt="MS 447 Annual Appeal Graphic" width="600" class="fluid"
-                style="display:block; width:100%; max-width:600px; max-width:37.5rem; height:auto; border:0;">
-                </td>
-              </table>
-            </td>
-          </tr>
-          <tr><td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td></tr>
-
-           <!-- CARD 4: REMINDER, PTA MEETING INFO FOR DEC-->
-
-   <!--REMINDER BANNER-->
-
-        <tr>
-            <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
-              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
-                style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
-
-                <!--REMINDER BANNER-->
-                <tr>
-                <td bgcolor="#fff4d6"
-                style="background-color:#ffe26d; border-top:4px solid #242659; border-bottom:1px solid #000000; border-radius:8px 8px 0 0; padding:8px 20px; padding:0.5rem 1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#000000;">
-                &#9200;&nbsp; Reminder
-                </td>
-                </tr>
-
-                <tr>
-                  <td class="card-pad" style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
-                    <h2 class="h2" style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">NEXT PTA MEETING ON DECEMBER 15 (ON ZOOM) 🖥️ </h2>
-                   <p style="margin:0;">Connect with other families and school staff at our next PTA meeting on Tuesday, December, 15. This meeting will be held virtually on Zoom.</p><br>
-                   <p style="margin:0 0 12px; margin:0 0 0.75rem;"><i>When:</i> Tuesday, December, 15, 6:30 - 7:45 pm</p> 
-                   <p style="margin:0 0 12px; margin:0 0 0.75rem;"></p><i>Where: </i><a href="https://us06web.zoom.us/j/85466877624?pwd=aZJwHeIa8R6kV6mn6mo3rbTzYOaN1d.1#success" target="_blank">Zoom</a>, (Meeting ID: 854 6687 7624; Passcode: 800217)  
-
-                </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <tr><td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td></tr>
-
-          <!-- CARD 5: INTERPRETATION MEETING INFO-->
-       <tr>
-            <tr>
-            <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
-              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
-                style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
-
-                <!--REMINDER BANNER-->
-                <tr>
-                <td bgcolor="#fff4d6"
-                style="background-color:#ffe26d; border-top:4px solid #242659; border-bottom:1px solid #000000; border-radius:8px 8px 0 0; padding:8px 20px; padding:0.5rem 1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#000000;">
-                &#9200;&nbsp; Reminder
-                </td>
-                </tr>
-
-                <tr>
-                  <td class="card-pad" style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
-                    <h2 class="h2" style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:20px; font-size:1.25rem; line-height:1.3; font-weight:700; color:#0c0c0c;">INTERPRETATION NOW AVAILABLE AT PTA MEETINGS: PICK YOUR LANGUAGE! 🗣️ 💬</h2>  
-                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">From now on, live digital interpretation will be available during online PTA meetings. This means that you will be able to <b>read in your preferred language</b> what everyone is saying. Don’t feel comfortable speaking English? No problem. When you <b>speak in your preferred language,</b> everyone else will be able to read what you say in their preferred language. Zoom enables digital interpretation into Spanish, Chinese, and many other languages. We’re so excited that language will no longer be a barrier to participation!</p>
-                        
-                
-                </td>
-                </tr>
-                <td style="padding:0; font-size:0; line-height:0;">
-              <img src="https://res.cloudinary.com/l5rpfuut/image/upload/v1794965469/Screenshot_2026-11-17_at_7.32.37_PM.png"
-                alt="Digital Interpretation Instructions for Zoom" width="600" class="fluid"
-                style="display:block; width:100%; max-width:600px; max-width:37.5rem; height:auto; border:0;">
-                </td>
-              </table>
-            </td>
-          </tr>
-          <tr><td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td></tr>
-
-
-
-           <!-- CARD 6: CARDBOARD SHOE BOXES REQUESTED -->
-         <tr>
-            <tr>
-            <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
-              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
-                style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
-
-                <!--REMINDER BANNER-->
-                <tr>
-                <td bgcolor="#fff4d6"
-                style="background-color:#ffe26d; border-top:4px solid #242659; border-bottom:1px solid #000000; border-radius:8px 8px 0 0; padding:8px 20px; padding:0.5rem 1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#000000;">
-                &#9200;&nbsp; Reminder
-                </td>
-                </tr>
-
-                <tr>
-                  <td class="card-pad" style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
-                    <h2 class="h2" style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">DONATION REQUEST FOR CARDBOARD SHOE BOXES 📦</h2>
-                    <p style="margin:0 0 12px; margin:0 0 0.75rem;">Our 8th Grade Exploration students are creating Media Time Capsules as part of their Critical Media Literacy unit, and they need your help!</p>
-                     <p style="margin:0 0 12px; margin:0 0 0.75rem;">The EXPO teachers are looking for donations of empty cardboard shoeboxes for this project. If you have any you’d be willing to donate, please have your student – they can be in any grade – bring them to school and drop them off at one of the following Exploration classrooms:</p>
-                    <ul>
-                        <li>Room 324</li>
-                        <li>Room 326</li>
-                        <li>Room 327</li>
-                    </ul>
-                     <p style="margin:0 0 12px; margin:0 0 0.75rem;">Donation deadline: December 18</p>
-                     <p style="margin:0 0 12px; margin:0 0 0.75rem;">Thank you for helping our 8th graders bring this creative learning project to life!</p>
-                </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <tr><td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td></tr>
-
-          <!-- CARD 7: MARK YOUR CALENDAR -->
           <tr>
             <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
-              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
+              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+                bgcolor="#ffffff"
                 style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
-                <tr>
-                  <td class="card-pad" style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
-                    <h2 class="h2" style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">MARK YOUR CALENDAR</h2>
-                    <p style="margin:0;">Info</p>
-                  </td>
-                </tr>
-              </table>
-            </td>
           </tr>
-          <tr><td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td></tr>
 
-          <!-- CARD 7: FOR YOUR REFERENCE -->
           <tr>
-            <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
-              <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
-                style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
-                <tr>
-                  <td class="card-pad" style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
-                    <h2 class="h2" style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">FOR YOUR REFERENCE</h2>
-                    <p style="margin:0;">Info</p>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <tr><td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td></tr>
-
-          <!-- Footer -->
-          <tr>
-            <td align="center" class="px"
-              style="padding:20px; padding:1.25rem; background-color:#e2e8fb; font-family:'Fira Sans', Arial, sans-serif; font-size:12px; font-size:0.75rem; line-height:1.5; color:#0c0c0c;">
-              MS 447, The Exploratory School · 345 Dean Street, Brooklyn, NY 11217<br>
-              Main: <a href="tel:+17183309328" style="color:#0c0c0c; text-decoration:underline;">(718) 330-9328</a>
-            </td>
-          </tr>
-
+            <td class="card-pad"
+              style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
+              <h2 class="h2"
+                style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">
+                OFFICE HOURS SCHEDULE 🗓️</h2>
+              <p style="margin:0 0 12px; margin:0 0 0.75rem;">Is your student taking advantage of office hours? Stay up
+                to date with the current <a
+                  href="https://docs.google.com/document/d/1I89B4v-zc1aJGF0igHs1blJfpS2k5z8QYtFI1RrzR5M/edit?usp=sharing"
+                  target="_blank">schedule</a>, which can get adjusted from time to time. This is a great time for them
+                to get extra help, have time to catch up if they are absent, or complete homework in a quiet place.</p>
         </table>
-        <!--[if mso]></td></tr></table><![endif]-->
-
       </td>
     </tr>
+    <tr>
+      <td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td>
+    </tr>
+
+    <!-- CARD 3: REMINDER, MATCHING FUNDS WILL DOUBLE IMPACT-->
+<tr>
+  <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
+    <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+      bgcolor="#ffffff"
+      style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
+
+      <!--REMINDER BANNER-->
+      <tr>
+        <td bgcolor="#fff4d6"
+          style="background-color:#ffe26d; border-top:4px solid #242659; border-bottom:1px solid #000000; border-radius:8px 8px 0 0; padding:8px 20px; padding:0.5rem 1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#000000;">
+          &#9200;&nbsp; Reminder
+        </td>
+      </tr>
+
+      <tr>
+        <td class="card-pad"
+          style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
+          <h2 class="h2"
+            style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">
+            MATCHING FUNDS WILL DOUBLE YOUR IMPACT ON GIVING TUESDAY 🎁</h2>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;">As the holiday season approaches and you begin thinking
+            about your end-of-year giving, we hope you’ll consider supporting MS 447. With Giving Tuesday just two
+            weeks away on December 1, there’s an exciting opportunity to make your contribution go even further!</p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem; color:#ff0000;">Take advantage of our <b>$5,000
+              match!</b></p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;"><b>An anonymous donor has generously pledged to match
+              the first $5,000 raised between now and Giving Tuesday (December 1), </b>doubling the impact of every
+            donation! That means a $50 gift becomes $100, and a $100 gift becomes $200. Reaching the full $5,000
+            match would bring our fundraising total to $16,000 since the start of the school year. <b>Thanks to your
+              incredible generosity, for the year we’ve raised over $8,000 so far!</b></p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;">🚨🚨<a
+              href="https://www.zeffy.com/en-US/donation-form/375c6116-b8ce-4b7d-9160-e0049235ac9c"
+              target="_blank"><b>DONATE HERE TO DOUBLE YOUR IMPACT</b></a>🚨🚨</p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;"><u>Why Your Support Matters:</u></p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;">Your contributions help sustain the programs and
+            experiences that make MS 447 special and are a big part of why so many families choose our school. These
+            include our Signature Expo Trips, which take classroom learning beyond school walls and bring it to life
+            through hands-on experiences throughout NYC and beyond.</p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;">Every contribution makes a difference, and this matching
+            challenge is a wonderful opportunity to make your gift go twice as far. All donations are 100%
+            tax-deductible with one-time and recurring monthly options available. </p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;">Thank you for your continued generosity and for
+            supporting the MS 447 community!</p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;">With gratitude,</p>
+          <p style="margin:0 0 12px; margin:0 0 0.75rem;">The MS 447 PTA</p>
+        </td>
+      </tr>
+
+      <!--ANNUAL APPEAL GRAPHIC-->
+      <tr>
+        <td style="padding:0; font-size:0; line-height:0;">
+          <img src="https://res.cloudinary.com/l5rpfuut/image/upload/v1795577486/unnamed_4.png"
+            alt="MS 447 Annual Appeal Graphic" width="600" class="fluid"
+            style="display:block; width:100%; max-width:600px; max-width:37.5rem; height:auto; border:0;">
+        </td>
+      </tr>
+
+      <!--VIDEO-->
+      <tr>
+        <td align="center" style="padding:0; font-size:0; line-height:0;">
+          <video width="600" controls playsinline preload="none"
+            poster="https://res.cloudinary.com/l5rpfuut/video/upload/so_0,w_600,c_scale/v1795578125/PTA-ANNUAL-APPEAL_EVERY-DOLLAR.jpg"
+            style="display:block; width:100%; max-width:600px; height:auto; border:0;">
+            <source
+              src="https://res.cloudinary.com/l5rpfuut/video/upload/vc_h264,w_600/v1795578125/PTA-ANNUAL-APPEAL_EVERY-DOLLAR.mp4"
+              type="video/mp4">
+            <!-- Fallback for Gmail, Outlook, etc.: animated GIF that links to the full video -->
+            <a href="https://res.cloudinary.com/l5rpfuut/video/upload/v1795578125/PTA-ANNUAL-APPEAL_EVERY-DOLLAR.mp4"
+              target="_blank">
+              <img
+                src="https://res.cloudinary.com/l5rpfuut/video/upload/w_600,fps_10,du_8,e_loop/v1795578125/PTA-ANNUAL-APPEAL_EVERY-DOLLAR.gif"
+                alt="Watch the MS 447 PTA Annual Appeal video" width="600" class="fluid"
+                style="display:block; width:100%; max-width:600px; height:auto; border:0;">
+            </a>
+          </video>
+        </td>
+      </tr>
+
+    </table>
+  </td>
+</tr>
+<tr>
+  <td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td>
+</tr>
+
+    <!-- CARD 4: REMINDER, PTA MEETING INFO FOR DEC-->
+
+    <!--REMINDER BANNER-->
+
+    <tr>
+      <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
+        <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+          bgcolor="#ffffff"
+          style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
+
+          <!--REMINDER BANNER-->
+          <tr>
+            <td bgcolor="#fff4d6"
+              style="background-color:#ffe26d; border-top:4px solid #242659; border-bottom:1px solid #000000; border-radius:8px 8px 0 0; padding:8px 20px; padding:0.5rem 1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#000000;">
+              &#9200;&nbsp; Reminder
+            </td>
+          </tr>
+
+          <tr>
+            <td class="card-pad"
+              style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
+              <h2 class="h2"
+                style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">
+                NEXT PTA MEETING ON DECEMBER 15 (ON ZOOM) 🖥️ </h2>
+              <p style="margin:0;">Connect with other families and school staff at our next PTA meeting on Tuesday,
+                December, 15. This meeting will be held virtually on Zoom.</p><br>
+              <p style="margin:0 0 12px; margin:0 0 0.75rem;"><i>When:</i> Tuesday, December, 15, 6:30 - 7:45 pm</p>
+              <p style="margin:0 0 12px; margin:0 0 0.75rem;"></p><i>Where: </i><a
+                href="https://us06web.zoom.us/j/85466877624?pwd=aZJwHeIa8R6kV6mn6mo3rbTzYOaN1d.1#success"
+                target="_blank">Zoom</a>, (Meeting ID: 854 6687 7624; Passcode: 800217)
+
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td>
+    </tr>
+
+    <!-- CARD 5: INTERPRETATION MEETING INFO-->
+    <tr>
+    <tr>
+      <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
+        <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+          bgcolor="#ffffff"
+          style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
+
+          <!--REMINDER BANNER-->
+          <tr>
+            <td bgcolor="#fff4d6"
+              style="background-color:#ffe26d; border-top:4px solid #242659; border-bottom:1px solid #000000; border-radius:8px 8px 0 0; padding:8px 20px; padding:0.5rem 1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#000000;">
+              &#9200;&nbsp; Reminder
+            </td>
+          </tr>
+
+          <tr>
+            <td class="card-pad"
+              style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
+              <h2 class="h2"
+                style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:20px; font-size:1.25rem; line-height:1.3; font-weight:700; color:#0c0c0c;">
+                INTERPRETATION NOW AVAILABLE AT PTA MEETINGS: PICK YOUR LANGUAGE! 🗣️ 💬</h2>
+              <p style="margin:0 0 12px; margin:0 0 0.75rem;">From now on, live digital interpretation will be available
+                during online PTA meetings. This means that you will be able to <b>read in your preferred language</b>
+                what everyone is saying. Don’t feel comfortable speaking English? No problem. When you <b>speak in your
+                  preferred language,</b> everyone else will be able to read what you say in their preferred language.
+                Zoom enables digital interpretation into Spanish, Chinese, and many other languages. We’re so excited
+                that language will no longer be a barrier to participation!</p>
+
+
+            </td>
+          </tr>
+          <td style="padding:0; font-size:0; line-height:0;">
+            <img
+              src="https://res.cloudinary.com/l5rpfuut/image/upload/v1794965469/Screenshot_2026-11-17_at_7.32.37_PM.png"
+              alt="Digital Interpretation Instructions for Zoom" width="600" class="fluid"
+              style="display:block; width:100%; max-width:600px; max-width:37.5rem; height:auto; border:0;">
+          </td>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td>
+    </tr>
+
+
+
+    <!-- CARD 6: CARDBOARD SHOE BOXES REQUESTED -->
+    <tr>
+    <tr>
+      <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
+        <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+          bgcolor="#ffffff"
+          style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
+
+          <!--REMINDER BANNER-->
+          <tr>
+            <td bgcolor="#fff4d6"
+              style="background-color:#ffe26d; border-top:4px solid #242659; border-bottom:1px solid #000000; border-radius:8px 8px 0 0; padding:8px 20px; padding:0.5rem 1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#000000;">
+              &#9200;&nbsp; Reminder
+            </td>
+          </tr>
+
+          <tr>
+            <td class="card-pad"
+              style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
+              <h2 class="h2"
+                style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">
+                DONATION REQUEST FOR CARDBOARD SHOE BOXES 📦</h2>
+              <p style="margin:0 0 12px; margin:0 0 0.75rem;">Our 8th Grade Exploration students are creating Media Time
+                Capsules as part of their Critical Media Literacy unit, and they need your help!</p>
+              <p style="margin:0 0 12px; margin:0 0 0.75rem;">The EXPO teachers are looking for donations of empty
+                cardboard shoeboxes for this project. If you have any you’d be willing to donate, please have your
+                student – they can be in any grade – bring them to school and drop them off at one of the following
+                Exploration classrooms:</p>
+              <ul>
+                <li>Room 324</li>
+                <li>Room 326</li>
+                <li>Room 327</li>
+              </ul>
+              <p style="margin:0 0 12px; margin:0 0 0.75rem;">Donation deadline: December 18</p>
+              <p style="margin:0 0 12px; margin:0 0 0.75rem;">Thank you for helping our 8th graders bring this creative
+                learning project to life!</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td>
+    </tr>
+
+    <!-- CARD 7: MARK YOUR CALENDAR -->
+    <tr>
+      <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
+        <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+          bgcolor="#ffffff"
+          style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
+          <tr>
+            <td class="card-pad"
+              style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
+              <h2 class="h2"
+                style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">
+                MARK YOUR CALENDAR</h2>
+              <p style="margin:0;">Info</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td>
+    </tr>
+
+    <!-- CARD 7: FOR YOUR REFERENCE -->
+    <tr>
+      <td class="gutter" style="padding:0 12px; padding:0 0.75rem;">
+        <table role="presentation" class="card" width="100%" cellpadding="0" cellspacing="0" border="0"
+          bgcolor="#ffffff"
+          style="width:100%; background-color:#ffffff; border:1px solid #d9dff2; border-radius:8px; border-radius:0.5rem; border-collapse:separate;">
+          <tr>
+            <td class="card-pad"
+              style="padding:20px; padding:1.25rem; font-family:'Fira Sans', Arial, sans-serif; font-size:16px; font-size:1rem; line-height:1.5; color:#333333; word-break:break-word;">
+              <h2 class="h2"
+                style="margin:0 0 12px; margin:0 0 0.75rem; font-family:'Fira Sans', Arial, sans-serif; font-size:22px; font-size:1.375rem; line-height:1.25; font-weight:700; color:#0c0c0c;">
+                FOR YOUR REFERENCE</h2>
+              <p style="margin:0;">Info</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style="height:12px; height:0.75rem; font-size:0; line-height:0;">&nbsp;</td>
+    </tr>
+
+    <!-- Footer -->
+    <tr>
+      <td align="center" class="px"
+        style="padding:20px; padding:1.25rem; background-color:#e2e8fb; font-family:'Fira Sans', Arial, sans-serif; font-size:12px; font-size:0.75rem; line-height:1.5; color:#0c0c0c;">
+        MS 447, The Exploratory School · 345 Dean Street, Brooklyn, NY 11217<br>
+        Main: <a href="tel:+17183309328" style="color:#0c0c0c; text-decoration:underline;">(718) 330-9328</a>
+      </td>
+    </tr>
+
+  </table>
+  <!--[if mso]></td></tr></table><![endif]-->
+
+  </td>
+  </tr>
   </table>
 </body>
 
